@@ -4,7 +4,7 @@
   "description": "Palestra sobre jasmine para testes unitários no front-end",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/carlos-algms/palestra-jasmine/issues"
   },
-  "homepage": "https://github.com/carlos-algms/palestra-jasmine#readme"
+  "homepage": "https://github.com/carlos-algms/palestra-jasmine#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^0.3.8"
+  }
 }
