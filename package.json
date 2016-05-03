@@ -1,0 +1,19 @@
+{
+  "name": "palestra-jasmine",
+  "version": "1.0.0",
+  "description": "Palestra sobre jasmine para testes unitários no front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-algms/palestra-jasmine.git"
+  },
+  "author": "Carlos A. Gomes <carlos.algms@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos-algms/palestra-jasmine/issues"
+  },
+  "homepage": "https://github.com/carlos-algms/palestra-jasmine#readme"
+}
