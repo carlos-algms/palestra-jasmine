@@ -4,7 +4,8 @@ module.exports = function karmaConf(config) {
 
     plugins: [
       'karma-chrome-launcher',
-      'karma-jasmine'
+      'karma-jasmine',
+      'karma-jasmine-ajax',
     ],
 
     browsers: [
@@ -12,10 +13,12 @@ module.exports = function karmaConf(config) {
     ],
 
     frameworks: [
+      'jasmine-ajax',
       'jasmine'
     ],
 
     files: [
+      'node_modules/jquery/dist/jquery.js',
       'app/**/**/*.js'
     ],
   });
