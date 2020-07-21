@@ -24,6 +24,6 @@
     "karma-jasmine-ajax": "^0.1.13"
   },
   "dependencies": {
-    "jquery": "^2.2.3"
+    "jquery": "^3.5.1"
   }
 }
